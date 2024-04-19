@@ -1,8 +1,9 @@
-const Microphone = require("./Microphone");
-const Speaker = require("./Speaker");
+const PACat = require("./PACat");
 
 
-module.exports = {
-    Microphone,
-    Speaker
-};
+function pacat (format = 'float32le') {
+    return new PACat(format);
+}
+
+
+module.exports = pacat;
