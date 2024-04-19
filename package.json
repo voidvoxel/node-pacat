@@ -1,0 +1,24 @@
+{
+  "name": "@voidvoxel/pacat",
+  "version": "0.1.0-alpha",
+  "description": "Node.js bindings for `pacat` | PulseAudio cat",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pacat",
+    "pulseaudio",
+    "pulse-audio",
+    "pulse",
+    "audio",
+    "mic",
+    "mics",
+    "microphone",
+    "microphones",
+    "speaker",
+    "speakers"
+  ],
+  "author": "Ashlynn Juniper",
+  "license": "ISC"
+}
