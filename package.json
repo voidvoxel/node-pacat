@@ -1,6 +1,6 @@
 {
   "name": "@voidvoxel/pacat",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0-alpha.1",
   "description": "Node.js bindings for `pacat` | PulseAudio cat",
   "main": "src/index.js",
   "scripts": {
