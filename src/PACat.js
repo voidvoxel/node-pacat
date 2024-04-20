@@ -16,6 +16,13 @@ const DEFAULT_FORMAT = 'float32le';
  * Use this to stream raw audio data to the speakers.
  */
 class AudioPlaybackSession {
+    /**
+     * Create a new `AudioPlaybackSession`.
+     * @param {PACat} pacat
+     * The pacat instance.
+     * @param {ReadableStream} readableStream
+     * The stream to read audio from.
+     */
     constructor (
         pacat,
         readableStream
