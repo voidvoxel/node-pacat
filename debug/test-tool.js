@@ -7,9 +7,14 @@ const {
 const pacat = require("../src")('float32le');
 
 
-const TMP_DIR = 'debug/tmp';
+if (process.argv.length < 3) {
+    process.exit(1);
+}
 
-const FILE_PATH = TMP_DIR + '/audio.raw';
+
+const TMP_DIR = 'samples/out';
+
+const FILE_PATH = TMP_DIR + '/0.float32le.audio';
 
 
 function feedback () {
