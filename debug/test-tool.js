@@ -1,8 +1,10 @@
 const fs = require('fs');
+
 const {
     existsSync,
     mkdirSync
 } = require('fs');
+
 
 const pacat = require("../src")('float32le');
 
@@ -58,9 +60,6 @@ function createTmpDir () {
 createTmpDir();
 
 
-/* Record */
-
-
 const mode = process.argv[process.argv.length - 1];
 
 if (mode === 'f' || mode === 'feedback') feedback();
@@ -71,5 +70,3 @@ else {
 
     process.exit(1);
 }
-
-/* Playback */
