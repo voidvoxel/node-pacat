@@ -1,0 +1,27 @@
+{
+  "name": "pacat",
+  "version": "0.1.0-alpha.4",
+  "description": "Node.js bindings for `pacat` | PulseAudio cat",
+  "main": "src/index.js",
+  "scripts": {
+    "debug-feedback": "node debug/test-tool.js feedback",
+    "debug-play": "node debug/test-tool.js play",
+    "debug-record": "node debug/test-tool.js record",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pacat",
+    "pulseaudio",
+    "pulse-audio",
+    "pulse",
+    "audio",
+    "mic",
+    "mics",
+    "microphone",
+    "microphones",
+    "speaker",
+    "speakers"
+  ],
+  "author": "Ashlynne Juniper",
+  "license": "MPL-2.0"
+}
